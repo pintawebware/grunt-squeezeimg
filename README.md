@@ -26,7 +26,6 @@ module.exports = function (grunt) {
     squeezeimg: {
         taskName: {
             options: {
-                tables: true,
                 token: 'Your API token',
                 qlt: 60,
                 method: 'compress',
