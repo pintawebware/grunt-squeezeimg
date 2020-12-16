@@ -1,0 +1,33 @@
+{
+  "name": "grunt-squeezeimg",
+  "version": "1.0.0",
+  "description": "Plugin grunt",
+  "main": "tasks/squeezeimg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/kirians/squeezeimg-grunt.git"
+  },
+  "keywords": [
+    "grunt plugin",
+    "compress images",
+    "convert images",
+    "squeezeimg",
+    "image optimizer"
+  ],
+  "author": "",
+  "license": "License MIT License (c) PintaWebware",
+  "bugs": {
+    "url": "https://gitlab.com/kirians/squeezeimg-grunt/issues"
+  },
+  "homepage": "https://gitlab.com/kirians/squeezeimg-grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
