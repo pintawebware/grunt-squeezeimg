@@ -57,7 +57,7 @@ module.exports = function (grunt) {
 ### to
 convert to format ( jp2, webp ) default 'webp'
 ### rename 
-rename image, default false
+rename image, default false ( If true, the file name is assigned by the server )
 
 
 ### License MIT License (c) PintaWebware
