@@ -24,6 +24,7 @@ jspm_packages/
 .vscode-test
 .vscode
 
+.DS_Store
 tmp/
 images/
 Gruntfile.js
