@@ -90,7 +90,6 @@ module.exports = function (grunt) {
         });
       });
     } catch (err) {
-      console.log(err);
       logger.error(`${PLUGIN_NAME} error : ${err.message}`)
       grunt.fail.fatal(`${PLUGIN_NAME} error : ${err.message}`);
     }
