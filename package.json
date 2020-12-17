@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/kirians/squeezeimg-grunt.git"
+    "url": "git+https://github.com/pintawebware/grunt-squeezeimg"
   },
   "keywords": [
     "grunt plugin",
@@ -17,12 +17,12 @@
     "squeezeimg",
     "image optimizer"
   ],
-  "author": "@PintaWebWare",
-  "license": "License MIT License (c) PintaWebware",
+  "author": "pintawebware",
+  "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/kirians/squeezeimg-grunt/issues"
+    "url": "https://github.com/pintawebware/grunt-squeezeimg/issues"
   },
-  "homepage": "https://gitlab.com/kirians/squeezeimg-grunt#readme",
+  "homepage": "https://github.com/pintawebware/grunt-squeezeimg#readme",
   "devDependencies": {
     "grunt": "^1.3.0"
   },

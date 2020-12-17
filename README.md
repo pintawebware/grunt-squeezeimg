@@ -13,7 +13,7 @@ Try the plugin functions right now. To do this, go to https://squeezeimg.com/.
 ## Install
 
 ```sh
-$ npm install --save-dev grunt-squeezeimg
+$ npm install --save-dev @pintawebware/grunt-squeezeimg
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ module.exports = function (grunt) {
             }
       }
     });
-    grunt.loadNpmTasks('grunt-squeezeimg');
+    grunt.loadNpmTasks('@pintawebware/grunt-squeezeimg');
     grunt.registerTask('default', ['squeezeimg']);
   };
 
