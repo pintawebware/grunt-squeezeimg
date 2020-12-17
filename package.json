@@ -17,7 +17,7 @@
     "squeezeimg",
     "image optimizer"
   ],
-  "author": "",
+  "author": "@PintaWebWare",
   "license": "License MIT License (c) PintaWebware",
   "bugs": {
     "url": "https://gitlab.com/kirians/squeezeimg-grunt/issues"
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "path": "^0.12.7",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "winston": "^3.3.3"
   }
 }
