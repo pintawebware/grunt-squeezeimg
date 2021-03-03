@@ -83,6 +83,7 @@ module.exports = function (grunt) {
             formData.append('file_name', filepath.split('/').pop());
             formData.append('qlt', options.qlt || 60);
             formData.append('token', options.token);
+            formData.append('source', "Plugin : Grunt");
             formData.append('method', options.method || 'compress');
             formData.append('file', data, { filename: filepath.split('/').pop() });
             formData.append('to', options.to || 'webp');

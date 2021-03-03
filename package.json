@@ -1,6 +1,6 @@
 {
   "name": "@pintawebware/grunt-squeezeimg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin grunt",
   "main": "tasks/squeezeimg.js",
   "scripts": {
