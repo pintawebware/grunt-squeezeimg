@@ -71,7 +71,8 @@ module.exports = function (grunt) {
                 let res = {};
                 try {
                   res = JSON.parse(str);
-                } catch (err) { }
+                  if(res.eventObject === 'tariff') throw { message:res.error, object:res.eventObject};
+                } catch (err) { if(err.object) throw err }
                 logger.error(`${PLUGIN_NAME} error : ${res.error.message || res.message || str}`)
               }
               count--;
